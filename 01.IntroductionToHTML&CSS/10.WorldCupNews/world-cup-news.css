@@ -1,0 +1,28 @@
+main{
+    border-width: 1px;
+}
+#wrapper{
+    Width: 700px;
+    Height: 730px;
+    Border: 1px solid #000000;
+    margin: 0 auto;
+    Padding: 10px 20px;
+    align-self: center;
+    background-color: #a6e1ec;
+}
+img{
+    Width: 200px;
+    Margin-Right: 10px;
+    Vertical-Align: middle;
+}
+span.text{
+    color: rgb(63, 81, 181);
+}
+li{
+    Width: 595px;
+    Padding: 10px;
+    Margin-Bottom: 5px;
+    Font-Size: 14px;
+    Border: 1px solid #000000;
+    list-style-type: none;
+}
