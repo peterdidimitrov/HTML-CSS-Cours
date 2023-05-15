@@ -1,10 +1,11 @@
 main{
     border-width: 1px;
+    border-style: solid;
 }
 #wrapper{
     Width: 700px;
     Height: 730px;
-    Border: 1px solid #000000;
+    border: 1px solid #000000;
     margin: 0 auto;
     Padding: 10px 20px;
     align-self: center;
@@ -23,6 +24,6 @@ li{
     Padding: 10px;
     Margin-Bottom: 5px;
     Font-Size: 14px;
-    Border: 1px solid #000000;
+    border: 1px solid #000000;
     list-style-type: none;
 }
