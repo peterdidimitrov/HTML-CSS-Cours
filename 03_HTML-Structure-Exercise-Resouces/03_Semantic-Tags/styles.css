@@ -1,0 +1,18 @@
+body{
+    background: #f9f7cf;
+    padding: 15px, 5px 15px;
+    width: 480px;
+    font-size: 16px;
+    margin-left: 1cm;
+    align-self: center;
+}
+header{
+    font-size: 16px;
+    line-height: 28px;
+    background: #f2dcbb;
+}
+footer{
+    text-decoration: none;
+    line-height: 20px;
+    background: #f2dcbb;
+}
