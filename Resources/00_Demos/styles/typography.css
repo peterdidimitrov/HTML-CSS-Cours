@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@300;400;700;900&display=swap');
+
+/* Variables */
+html {
+    --white-space: 1.5em;
+}
+
+html {
+    font: 14px/1.4 "Noto Sans", Verdana, sans-serif;
+}
+
+body, table, textarea, input, button, option, label {
+    font: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto Slab", Georgia, serif;
+    font-weight: bold;
+    line-height: 1.1;
+    /* Calculating spacing based on a CSS Variable */
+    margin: calc( 0.6 * var(--white-space, 1.5em) ) 0 calc( 0.3 * var(--white-space, 1.5em) );
+}
+
+h1 { font-size: 3.0em; }
+h2 { font-size: 2.2em; }
+h3 { font-size: 1.6em; opacity: 0.7; }
+h4 { font-size: 1.4em; opacity: 0.7;}
+h5 { font-size: 1.2em; opacity: 0.7; }
+h6 { font-size: 1em; opacity: 0.7; }
+
+h1 a[href^="#"], h2 a[href^="#"], h3 a[href^="#"], h4 a[href^="#"], h5 a[href^="#"], h6 a[href^="#"] {
+    opacity: 0.5;
+    text-decoration: none;
+    font-size: 0.4em;
+    vertical-align: baseline;
+    padding: 0.2em 0.4em;
+    margin-left: 0.2em;
+    border-radius: 0.2em;
+    text-transform: uppercase;
+    background: rgba(0,0,0,0.1);
+}
+
+h1 a[href^="#"]:hover, h2 a[href^="#"]:hover, h3 a[href^="#"]:hover, h4 a[href^="#"]:hover, h5 a[href^="#"], h6 a[href^="#"]:hover {
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+}
+
+h2:target {
+    color: purple;
+}
+
+p, ul, ol, dl, blockquote {
+    margin-bottom: var(--white-space, 1.5em);
+}
+
+ul, ol, dl, blockquote {
+    padding-left: calc( 1.5 * var(--white-space, 1.5em) );
+}
+
+dt {
+    margin-top: calc( 0.5 * var(--white-space, 1.5em));
+    font-weight: bold;
+}
+
+blockquote {
+    border-left: 0.5em solid #ddd;
+    padding-block: 1em;
+}
+
+blockquote p {
+    font-style: italic;
+}
+
+blockquote p:last-child {
+    margin-bottom: 0;
+}
+
