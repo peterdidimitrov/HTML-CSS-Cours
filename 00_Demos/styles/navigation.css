@@ -1,0 +1,47 @@
+.main-nav ul {
+    padding: 0;
+}
+
+.main-nav > ul > li {
+    display: inline-block;
+}
+
+.main-nav > ul > li li {
+    display: block;
+}
+
+.main-nav li {
+    position: relative;
+}
+
+.main-nav a {
+    display: block;
+    padding: 0.5em 0.7em;
+    text-decoration: none;
+    color: purple;
+    background: #ddd;
+}
+
+.main-nav li:hover > a,
+.main-nav a:hover {
+    background: #999;
+    color: #fff;
+}
+
+.main-nav > ul ul {
+    display: none;
+    width: 10em;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 9000;
+}
+
+.main-nav > ul ul ul {
+    top: 0;
+    left: 100%;
+}
+
+.main-nav li:hover > ul {
+    display: block;
+}
