@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Georgia, serif;
+    font-size: 1em/1.2;
+}
+body{
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 40vh auto;
+    align-items: center;
+    
+}
+.card{
+    background-color: rgb(255, 255, 255);
+}
+img{
+    position: absolute;
+    top: 20px;
+    width: auto;
+}
