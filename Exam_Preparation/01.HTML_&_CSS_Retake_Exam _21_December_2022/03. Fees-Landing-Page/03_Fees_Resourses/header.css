@@ -1,0 +1,25 @@
+.creative-logo {
+    width: 100px;
+    margin-left: 5em;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+nav {
+    width: 25%;
+    margin-right: 5em;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+li {
+    padding-left: 0.6em;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
