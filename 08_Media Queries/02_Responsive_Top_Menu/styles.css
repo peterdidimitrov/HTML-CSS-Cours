@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "aside main"
+    "footer footer";
+    grid-template-columns: 100px auto;
+    gap: 10px;
+    padding: 1em;
+}
+header, aside, main, footer{
+    border-radius: 3px;
+    background-color: rgb(181, 216, 255);
+    padding: 5px 10px;
+}
+header > h1{
+    display: inline-block;
+    vertical-align: middle;
+}
+nav{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 8px;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(53, 100, 153);
+    padding: 5px 15px;
+}
+aside > ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 5px;
+}
+a{
+    display: block;
+    padding: 5px 0px;
+    color: rgb(86, 40, 129);
+    text-decoration: none;
+}
+header{
+    grid-area: header;
+}
+main{
+    grid-area: main;
+}
+aside{
+    grid-area: aside;
+}
+footer{
+    grid-area: footer;
+}
+main > ul{
+    margin-left: 2em;
+}
+main > ul > li > a{
+    color: black;
+}
+@media (max-width: 500px){
+    body {
+        display: grid;
+        grid-template-areas: 
+        "header header"
+        "aside aside"
+        "main main"
+        "footer footer";
+        grid-template-columns: 50px auto;
+        gap: 8px;
+        padding: 0.5em;
+        font-size: 15px;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 2em;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li a{
+        display: block;
+        padding-left: 5px;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        align-items: center;
+        margin-left: 6em;
+        padding: 0;
+    }
+}
