@@ -4,11 +4,11 @@
 }
 header {
     display: flex;
-    justify-content: space-between;
 }
 nav {
     width: 25%;
     margin-right: 5em;
+    margin-left: auto;
 }
 ul {
     display: flex;

@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    font-family: Helvetica, sans-serif;
+    font-size: 23px;
+    margin: 0.5em 7em;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 2.2em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, serif;
+    margin: 1em 0;
+    font-weight: lighter;
+}
+
+h1 { font-size: 2.2em; }
+h2 { font-size: 2.0em; }
+h3 { font-size: 1.8em; }
+h4 { font-size: 1.6em; }
+h5 { font-size: 1.4em; }
+h6 { font-size: 1.2em; }
+
+body, input, textarea, button, table, option, select {
+    font: inherit;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px rgb(0, 0, 0) solid;
+    flex-basis: 100%;
+}
+
+header h1 {
+    text-transform: uppercase;
+}
+
+header nav {
+    align-self: center;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+p {
+    margin: 1em 0;
+}
+
+a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+    margin: 8px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+img {
+    border: 2px black solid;
+    padding: 5px;
+    margin-bottom: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25);
+    background: rgb(255, 255, 255);
+}
+
+img.right {
+    float: right;
+    margin-left: 15px;
+    height: 8em;
+}
+
+img.left {
+    float: left;
+    margin-right: 15px;
+    height: 4em;
+}
+
+blockquote {
+    margin-bottom: 1em;
+    border-left: 3px #dddddd solid;
+    padding-left: 30px;
+    float: right;
+    max-width: 40%;
+    font-style: italic;
+    color: #5f5956;
+    font-family: Georgia, serif;
+}
+
+blockquote cite {
+    display: block;
+    padding-top: 50px;
+    float: right;
+}
+
+aside {
+    flex-basis: 20%;
+    margin-right: -50px;
+}
+
+section aside nav ul li {
+    list-style-type: square;
+} 
