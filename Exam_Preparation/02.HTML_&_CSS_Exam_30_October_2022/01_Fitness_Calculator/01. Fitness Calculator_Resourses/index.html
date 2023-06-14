@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <section class="left"><img src="image/calculator.png" alt=""></section>
+        <section class="right">
+            <h1>FITNESS CALCULATOR</h1>
+            <div class="unit-container">
+                <a href='#' class="us units">Standart units (US)</a>
+                <a href='#' class="metric units">Metric units</a>
+            </div>
+            <form>
+                <div class="gender-container">
+                    <div>
+                        <p>Gender</p>
+                        <select id="genre">
+                            <option value="Female">Female</option>
+                            <option value="Male">Male</option>
+                            <option value="Other">Other</option>
+                        </datalist>
+                    </div>
+
+                    <div>
+                        <p>Age</p>
+                        <span class="input">
+                            <input type="text" placeholder="Years...">
+                        </span>
+                    </div>
+                </div>
+                <div>
+                    <p>Weight</p>
+                    <span class="weight">
+                        <input type="text" id="weight" placeholder="Pounds...">
+                    </span>
+                </div>
+                <div class="container">
+                    <p>Height</p>
+                    <div class="height-container">
+                        <span class="input">
+                            <input type="text" placeholder="Feet...">
+                        </span>
+                        <span class="input">
+                            <input type="text" placeholder="Inches...">
+                        </span>
+                    </div>
+                </div>
+                <button>Calculate</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
