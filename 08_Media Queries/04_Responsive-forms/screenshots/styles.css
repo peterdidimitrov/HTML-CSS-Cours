@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+form{
+    background-color: #F8F8F8;
+    width: 300px;
+    border: 1px solid rgba(0,0,0,0.40);
+    border-radius: 3px;
+    margin: 40vh auto;
+    flex-basis: 400px;
+    box-shadow: 0px 0px 45px 6px rgba(0,0,0,0.10);
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+label {
+    display: block;
+    margin: 1em;
+}
+input{
+    height: 1.5em;
+    margin-top: 1em;border-color: rgba(0,0,0,0.10);
+    border-radius: 3px;
+}
+input:focus {
+    background-color: lightblue;
+}
+
+select:focus {
+    background-color: ivory;
+}
+button{
+    background-color: #2D2D2D;
+    padding: 0.3em 0.5em;
+    margin-left: 3em;
+    margin-bottom: 2em;
+    border-radius: 3px;
+}
+button p{
+    text-decoration: none;
+    color: white;
+}
+.login{
+    position: absolute;
+    background-color: #F8F8F8;
+    top: 227px;
+    left: 100px;
+    border: 1px solid black;
+    border-radius: 3px;
+}

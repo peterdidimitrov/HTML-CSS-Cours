@@ -136,3 +136,38 @@ aside {
 section aside nav ul li {
     list-style-type: square;
 } 
+@media (width > 500px){
+    body{
+        font-size: 14px;
+    }
+}
+@media (width > 600px){
+    body{
+        font-size: 16px;
+    }
+}
+@media (width > 800px){
+    body{
+        font-size: 18px;
+    }
+}
+@media (width > 1300px){
+    body{
+        font-size: 21px;
+    }
+}
+@media (width > 1800px){
+    body{
+        font-size: 23px;
+    }
+}
+@media (width > 500px){
+    body{
+        font-size: 14px;
+    }
+}
+@media (width > 500px){
+    body{
+        font-size: 14px;
+    }
+}
