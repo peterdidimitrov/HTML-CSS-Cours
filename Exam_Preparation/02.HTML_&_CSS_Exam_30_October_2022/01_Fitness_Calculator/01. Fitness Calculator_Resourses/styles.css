@@ -1,11 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
 
 main{
     display: flex;
-    gap: 1em;
     margin: 40vh auto;
-    flex-basis: 400px;
-    box-shadow: 0px 0px 45px 6px rgba(0,0,0,0.43);
+    height: 500px;
+    width: 1000px;
+    flex-basis: 500px;
+    border: 1px solid #919191;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, 
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    background-color: #F6F7F8;
+}
+
+p,  
+h1{
+    margin-bottom: 1em;
 }
 img{
-    width: 400px;
+    filter: brightness(70%);
+    width: 500px;
+    height: 498px;
+    padding-bottom: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.unit-container{
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: 5vh auto; 
+    text-align: center;
+}
+
+.right a{
+    text-decoration: none;
+    color: black;
+    width: 142px;
+}
+
+.unit-container{
+    width: 500px;
+}
+
+.us.units{
+    background-color: #86D862;
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.metric.units{
+    background-color: #E0E0DF;
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+.height-container{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+.right h1{font-size: 18px;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 0em auto;
+    width: 450px;
+    gap: 1em;
+}
+#genre{
+    width: 140px;
+    margin-right: 1em;
+}
+
+#genre + input{
+    width: 140px;
+}
+
+button{
+    border: none;
+    border-radius: 20px;
+    background-color: #05A2D3;
+    color: #FFFFFF;
+    padding: 0.5em;
+    margin-top: 4em;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, 
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+p{
+    font-weight: bold;
+}
+#weight{
+    width: 80%;
 }
