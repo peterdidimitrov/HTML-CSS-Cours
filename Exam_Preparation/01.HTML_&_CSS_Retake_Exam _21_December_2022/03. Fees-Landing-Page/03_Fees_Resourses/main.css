@@ -4,14 +4,106 @@
     background-color: #54546D;
     position: relative;
 }
+
 .calc > img{
     position: relative;
     top: 50px;
     left: -70px;
 }
+
 .calc > h2{
     text-align: center;
     color: white;
     position: relative;
     top: -150px;
+}
+
+.programs{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 5em;
+    gap: 2em;
+    position: absolute;
+    top: 200px;
+}
+
+.design,
+.fundamentals,
+.professional{
+    background-color: #FFFFFF;
+    text-align: center;
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    height: 300px;
+    flex: 1 1 300px;
+}
+
+.description{
+    height: 70%;
+    padding: 2em;
+
+}
+
+button{
+    background-color: #9A5DC6;
+    padding: 0.6em;
+    margin: auto;
+    color: #E4EFFA;
+    border-radius: 2em;
+    margin-top: 3em;
+    font-size: 10px;
+    border: none;
+}
+
+.prises{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em;
+    color: #E4EFFA;
+    border-bottom-left-radius: 0.5em;
+    height: 150px;
+    border-bottom-right-radius: 0.5em;
+}
+.design .prises{
+    background:
+        linear-gradient(to bottom right, #069D40 40%, transparent),
+        linear-gradient(to top left, #49D47E 20%, transparent);
+}
+.fundamentals .prises{
+    background:
+        linear-gradient(to bottom right, #4D6D8A 40%, transparent),
+        linear-gradient(to top left, #6098CB 20%, transparent);
+}
+
+.professional .prises{
+    background:
+        linear-gradient(to bottom right, #4C39A6 40%, transparent),
+        linear-gradient(to top left, #8B7CE0 20%, transparent);
+        
+}
+
+.design .prises{
+    flex-direction: column;
+}
+.in-class{
+    width: 50%;
+    border-right: 1px solid rgba(250, 241, 241, 0.9);
+}
+.online{
+    width: 50%;
+}
+.type-of-education{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
+    align-content: center;
+    margin-top: 15em;
+}
+.finansing{
+    margin-top: 5em;
+    display: flex;
+    justify-content: space-around;
 }

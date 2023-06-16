@@ -4,9 +4,10 @@
 }
 header {
     display: flex;
+    padding: 1em;
 }
 nav {
-    width: 25%;
+    width: 20%;
     margin-right: 5em;
     margin-left: auto;
 }
@@ -22,4 +23,5 @@ li {
 a {
     text-decoration: none;
     color: black;
+    font-size: 12px;
 }

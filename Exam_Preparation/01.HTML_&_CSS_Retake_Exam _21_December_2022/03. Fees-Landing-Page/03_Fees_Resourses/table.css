@@ -1,3 +1,16 @@
 .invisible {
     display: none;
 }
+td{
+    padding: 1em 0;
+}
+tr:nth-child(even){
+    background: #E6E6E6;
+}
+tr:nth-child(odd){
+    background: #F8F8F8;
+}
+table{
+    border-top-left-radius: 2em;
+    border-spacing: 0;
+}
