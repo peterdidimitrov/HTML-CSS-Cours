@@ -1,0 +1,19 @@
+.main-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    padding: 1.5em 3em;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5em;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #EFEBE3;
+    font-size: 10px;
+}

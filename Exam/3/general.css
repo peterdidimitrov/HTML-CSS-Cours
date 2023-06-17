@@ -1,0 +1,33 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    /* font: 12px/1.5 'Lato', sans-serif; */
+}
+
+
+body, input, textarea, button, table, option, select{
+    font: inherit;
+}
+
+h1, h2, h3, h4, h5, h6{
+    /* font-family: 'Montserrat', sans-serif; */
+    padding-bottom: 0.3em;
+}
+
+h1 { font-size: 2.2em; }
+h2 { font-size: 2.0em; }
+h3 { font-size: 1.8em; }
+h4 { font-size: 1.6em; }
+h5 { font-size: 1.4em; }
+h6 { font-size: 1.2em; }
