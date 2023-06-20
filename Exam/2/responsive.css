@@ -1,0 +1,21 @@
+@media(width <= 600px){
+    .home-hero{
+        flex-direction: column;
+    }
+    .home-hero img {
+        display: block;
+        order: 2;
+      }
+      .home-hero .home-navbar-container {
+        order: 1;
+      }
+    .home-cards-container{
+        flex-direction: column;
+        align-content: center;
+    }
+    .home-stats{
+        display: flex;
+        flex-direction: column;
+        align-content: end;
+    }
+}

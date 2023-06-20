@@ -1,3 +1,41 @@
 .site-main{
-    
+    display: flex;
+    flex-direction: column;
+}
+.site-main .one{
+    background-color: #ADE2DF;
+    text-align: center;
+    padding: 2em;
+}
+.site-main .one button{
+    margin-top: 2em;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 0.5em;
+    border-radius: 0.5em;
+}
+.site-main .one button svg{
+    fill: #ADE2DF;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+.site-main .two{
+    display: flex;
+    flex-basis: 30%;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+}
+.site-main .three{
+    display: flex;
+}
+.site-main .four{
+    display: flex;
+    flex-direction: column;
+}
+.site-main .four section{
+    display: flex;
+}
+.site-main .five{
+    display: flex;
 }

@@ -1,6 +1,9 @@
-.site-logo {
-
-}
 .site-header {
-
+    display: flex;
+    justify-content: space-between;
+    gap: 10em;
+    margin: 1em 2em;
+}
+.site-header div{
+    flex-basis: 50%;
 }

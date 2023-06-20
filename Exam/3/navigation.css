@@ -1,13 +1,24 @@
-.main-nav {
-    
-}
-ul {
+nav > ul{
+    display: flex;
 
 }
-li {
+.left-nav nav > ul{
+    justify-content: space-between;
+   }
+.right-nav nav > ul{
+ justify-content: end;
+ 
+}
+li{
     list-style: none;
+    padding: 0.5em;
 }
 a {
     text-decoration: none;
     color: black;
+}
+.singup{
+    background-color: #ADE2DF;
+    padding: 0.5em;
+    border-radius: 0.3em;
 }
