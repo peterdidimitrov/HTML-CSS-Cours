@@ -79,13 +79,45 @@ nav {
   margin-bottom: 2em;
 }
 #main-links > li {
+  width: 150px;
+}
+#links > li {
+  width: 150px;
+}
+#main-links > li > a {
   display: flex;
   flex-direction: column;
+  text-align: center;
+}
+#main-links > li:hover {
+  > a:hover {
+    > svg {
+      fill: white;
+    }
+    color: white;
+  }
+  background-color: #b58e10;
+  text-align: center;
+  padding: 0.5em;
 }
 #links {
   display: flex;
   justify-content: end;
-  gap: 3em;
+  gap: 1em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+#links > li:hover {
+  color: white;
+  > a:hover {
+    > svg {
+      fill: white;
+    }
+    color: white;
+  }
+  background-color: #b58e10;
+  text-align: center;
+  padding: 0.5em;
 }
 a {
   text-decoration: none;
@@ -120,6 +152,7 @@ svg {
   color: #f2a309;
   background: none;
   padding: 0.5em 1em;
+  border-radius: 5px;
 }
 #card {
   background: linear-gradient(100deg, #a27816, #f2ca52cd);
@@ -214,4 +247,9 @@ footer {
   margin: auto;
   text-align: center;
   padding: 1em;
+}
+.banner > button:hover {
+  background-color: #fffefa;
+  border: none;
+  color: #b58e10;
 }
