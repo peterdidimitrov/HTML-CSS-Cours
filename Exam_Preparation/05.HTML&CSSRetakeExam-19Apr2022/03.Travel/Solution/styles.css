@@ -90,7 +90,7 @@ nav {
   text-align: center;
 }
 #main-links > li:hover {
-  > a:hover {
+  > a {
     > svg {
       fill: white;
     }
@@ -109,10 +109,7 @@ nav {
 }
 #links > li:hover {
   color: white;
-  > a:hover {
-    > svg {
-      fill: white;
-    }
+  > a {
     color: white;
   }
   background-color: #b58e10;
@@ -252,4 +249,10 @@ footer {
   background-color: #fffefa;
   border: none;
   color: #b58e10;
+}
+#buy:hover,
+#subscribe:hover {
+  background-color: #fffefa;
+  border: none;
+  color: black;
 }

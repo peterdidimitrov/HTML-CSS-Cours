@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap");
+:root {
+  --first: #D9D9D9;
+  --second: #FF7C4C;
+  --third: #D9D9D9;
+  --fourth: #FF7C4C;
+  --fifth: #000000;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Inter";
+  font-weight: bolder;
+}
+h1 {
+    font-size: 25px;
+}
+ul {
+    list-style: none;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--first);
+}
+nav > button {
+    background-color: aliceblue;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: 2em;
+    border-radius: 5px;
+}
+nav > ul {
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    padding: 1em;
+}
+#first {
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-position:bottom;
+    width: 100%;
+    height: 85vh;
+    background-size: cover;
+    padding: 30px;
+  }
+  #first > div > p{
+    width: 100%;
+    margin-top: 5em;
+    color: white;
+  }
+  #first > div {
+    width: 40%;
+    padding-top: 5em;
+    padding-left: 5em;
+  }
+  #first > div > button{
+background-color: black;
+color: white;
+padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 5px;
+    margin-top: 2em;
+  }
+#second ul{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 2em;
+}
+#second ul li h1{
+    color: var(--second);
+    padding: 1em;
+}
+#second ul li p{
+    font-size: 10px;
+}
+#second ul li h5{
+    font-size: 10px;
+    padding: 0.5em;
+}
+#third {
+    margin-top: 4em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    background-color: var(--third);
+    padding: 2em;
+}
+#third div{
+    display: flex;
+    gap: 2em;
+}
+#third div .text{
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+#third div img{
+    width: 50%;
+    margin-left: 2em;
+}
+#third div .text button{
+    width: 100px;
+    border: none;
+    background-color: var(--third);
+    text-align: left;
+}
+#fourth section{
+    display: flex;
+    padding: 3em;
+    gap: 1em;
+    background-color: white;
+}
+#fourth {
+    padding-left: 3em;
+    padding-right: 3em;
+    background-color: #F5F5F5;
+}
+#fourth div{
+    text-align: center;
+    width: 40%;
+    font-size: 10px;
+}
+#fourth div p .price{
+    font-size: 40px;
+}
+#fourth div p .other{
+    font-weight: bold;
+}
+#fourth div p{
+    margin-bottom: 1em;
+}
+#fourth div:nth-child(2) button{
+    background-color: black;
+    color: white;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: 2em;
+    border-radius: 5px;
+    font-size: 10px;
+}
+#fourth div:nth-child(3) button{
+    background-color: white;
+    color: black;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: 2em;
+    border-radius: 5px;
+    font-size: 10px;
+}
+#fourth div:nth-child(1) {
+    text-align: left;
+}
+#fourth div:nth-child(1) h3 {
+    margin-bottom: 2em;
+    font-size: 18px;
+}
+#fourth div:nth-child(2)
+ {
+    background-color: var(--fourth);
+    padding: 1em;
+}
+#fourth div:nth-child(3)
+ {
+    background-color: var(--fifth);
+    padding: 1em;
+    color: white;
+}
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--third);
+    padding: 2em;
+}
+
+svg{
+    fill: black;
+}

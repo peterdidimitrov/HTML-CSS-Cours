@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  html {
+    box-sizing: border-box;
+    font: 12px/1.5 "Inter", sans-serif;
+  }
+  
+  body,
+  input,
+  textarea,
+  button,
+  table,
+  option,
+  select {
+    font: inherit;
+  }
+  
+  li {
+    list-style: none;
+  }
+  #background {
+    display: flex;
+    gap: 3em;
+    background-image: url(images/background.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 1900px;
+    height: 980px;
+    padding: 6em;
+    margin: auto;
+  }
+  #block-articles {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 90%;
+    gap: 5em;
+  }
+  #aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 4em;
+    padding: 3em;
+    width: 30%;
+    height: 97%;
+    background-color: #FFFFFF;
+    margin-bottom: 1em;
+  }
+  #man1 {
+    background-color: #FFFFFF;
+    gap: 4em;
+    display: flex;
+    width: 100%;
+    height: 50%;
+    padding: 4em;
+    > img {
+        border-radius: 50%;
+        width: 25%;
+    }
+  }
+  #man2 {
+    background-color: #FFFFFF;
+    display: flex;
+    gap: 3em;
+    width: 100%;
+    height: 50%;
+    padding: 4em;
+    > img {
+        border-radius: 50%;
+        width: auto;
+    }
+  }
+  #smapl-img {
+    display: flex;
+    gap: 2em;
+    height: 20%;
+    margin-bottom: 3em;
+    >img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    >div {
+        margin-top: 2em;
+    }
+  }
+  #text {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  h1 {
+    font-size: 80px;
+    width: 100%;
+    height: 100%;
+  }
+  p {
+    font-size: 25px;
+    margin-bottom: 2px;
+    padding-bottom: 2px;
+  }
+  hr {
+    margin-top: 3em;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 90%;
+    padding-bottom: 2px;
+  }
+  h5 {
+    font-size: 30px;
+    margin-bottom: 2px;
+  }
+  #smapl-img > div > p{
+    font-size: 17px;
+  }
